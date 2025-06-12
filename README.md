@@ -27,9 +27,7 @@ The main objective of this project is to:
 1.Navigate to the project folder:
 cd sales_summary_project
 
-2.
-Step 1: Create the SQLite database and populate it
-python create_sales_data.py
+2.Step 1: Create the SQLite database and populate it python create_sales_data.py
 
 Step 2: Run the analysis and generate chart
 python sales_summary.py
