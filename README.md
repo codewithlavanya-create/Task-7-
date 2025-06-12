@@ -52,14 +52,5 @@ Uses SQL to calculate:
 - Prints the summary.
 - Plots revenue by product as a bar chart using matplotlib.
 
-# Output
-Printed Output:
-
-Sales Summary:
-  product  total_qty  revenue
-0   Apple         45     54.0
-1  Banana         50     25.0
-2  Orange         35     28.0
-
 # Generated Chart:
 sales_chart.png (Bar chart of revenue by product)
