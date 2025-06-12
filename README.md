@@ -6,37 +6,39 @@ This project demonstrates how to create, query and visualize a basic sales datas
 
 # Objective
 The main objective of this project is to:
-• Create a simple sales dataset using SQLite
-• Run SQL queries to get total quantity sold and revenue per product
-• Visualize the results using a bar chart
-• Demonstrate data processing from database to visualization using Python
+- Create a simple sales dataset using SQLite
+-  Run SQL queries to get total quantity sold and revenue per product
+- visualize the results using a bar chart
+- Demonstrate data processing from database to visualization using Python
 
 # Tools Used
-• Python 3
-• SQLite (via Python’s built-in sqlite3 module)
-• pandas (for data handling)
-• matplotlib (for data visualization)
+- Python 3
+- SQLite (via Python’s built-in sqlite3 module)
+- pandas (for data handling)
+- matplotlib (for data visualization)
 
 # Files
-• create_sales_data.py: Creates the SQLite database sales_data.db and populates it with sample sales data.
-• sales_data.db: Script to query and visualize sales data.
-• sales_summary.py: Connects to the database, runs SQL queries, displays results, and plots a revenue bar chart.
-• sales_chart.png: Output image displaying a bar chart showing revenue by product.
+- create_sales_data.py: Creates the SQLite database sales_data.db and populates it with sample sales data.
+- sales_data.db: Script to query and visualize sales data.
+- sales_summary.py: Connects to the database, runs SQL queries, displays results, and plots a revenue bar chart.
+- sales_chart.png: Output image displaying a bar chart showing revenue by product.
 
 # Steps to Run
 1.Navigate to the project folder:
 cd sales_summary_project
 
-2.Step 1: Create the SQLite database and populate it
+2.
+Step 1: Create the SQLite database and populate it
 python create_sales_data.py
+
 Step 2: Run the analysis and generate chart
 python sales_summary.py
 
 This will:
-• Print total quantity and revenue per product
-• Plot a bar chart of revenue by product
-• Save the chart as sales_chart.png
-• Show the chart window
+- Print total quantity and revenue per product
+- Plot a bar chart of revenue by product
+- Save the chart as sales_chart.png
+- Show the chart window
 
 # How It Works
 • create_sales_data.py:
